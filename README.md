@@ -6,10 +6,20 @@
 ## Style sheet
 
 -   To style elements we use StyleSheet from react-native
+-   Just import StyleSheet and define your styles
 ```
 import { StyleSheet } from 'react-native'
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    myclass: {
+        borderWidth: 1,
+        borderColor: 'red'
+    }
+});
+```
+-   Use your style with components
+```
+<View style={styles.myclass}></View>
 ```
 
 ## Layout system
