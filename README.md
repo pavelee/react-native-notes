@@ -22,39 +22,39 @@ const styles = StyleSheet.create({});
 
 ![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/layout_system.png)
 
--   Box Object Model
-    -   familiar for web developer
-        -   padding, margin, border
-            -   margin
-                -   margin - all sides
-                -   marginVertical - margin top and bottom
-                -   marginHorizontal - margin left and right
-                -   marginTop
-                -   marginBottom
-                -   marginLeft
-                -   marginRight
-            -   padding
-                -   padding - all sides
-                -   paddingVertical - padding top and bottom
-                -   paddingHorizontal - padding left and right
-                -   paddingTop
-                -   paddingBottom
-                -   paddingLeft
-                -   paddingRight
-            -   border
-                -   borderWidth - all sides
-                -   borderTopWidth
-                -   borderBottomWidth
-                -   borderLeftWidth
-                -   borderRightWidth
-        -   width, height of element
-    -   using when you want to position single element by itself
--   Flex Box
-    -   familiar for web developer
-    -   how we layout some number of child element that are all in the same parent element
-        -   layout multiple element with one common parent
--   Position
-    -   position single element in a parent element
-        -   override box object model and flex blox
-        -   similar to position absolute from web development
+### Box Object Model
+-   familiar for web developer
+    -   padding, margin, border
+        -   margin
+            -   margin - all sides
+            -   marginVertical - margin top and bottom
+            -   marginHorizontal - margin left and right
+            -   marginTop
+            -   marginBottom
+            -   marginLeft
+            -   marginRight
+        -   padding
+            -   padding - all sides
+            -   paddingVertical - padding top and bottom
+            -   paddingHorizontal - padding left and right
+            -   paddingTop
+            -   paddingBottom
+            -   paddingLeft
+            -   paddingRight
+        -   border
+            -   borderWidth - all sides
+            -   borderTopWidth
+            -   borderBottomWidth
+            -   borderLeftWidth
+            -   borderRightWidth
+    -   width, height of element
+-   using when you want to position single element by itself
+### Flex Box
+-   familiar for web developer
+-   how we layout some number of child element that are all in the same parent element
+    -   layout multiple element with one common parent
+### Position
+-   position single element in a parent element
+    -   override box object model and flex blox
+    -   similar to position absolute from web development
 
