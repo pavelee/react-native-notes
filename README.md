@@ -23,6 +23,7 @@ const styles = StyleSheet.create({});
 ![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/layout_system.png)
 
 ### Box Object Model
+![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/box_object_model.png)
 -   familiar for web developer
     -   padding, margin, border
         -   margin
