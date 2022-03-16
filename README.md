@@ -1,6 +1,16 @@
 # My notes about react-native
 
--   [Layout system](#layout_system)
+-   [Style sheet](#style-sheet)
+-   [Layout system](#layout-system)
+
+## Style sheet
+
+-   To style elements we use StyleSheet from react-native
+```
+import { StyleSheet } from 'react-native'
+
+const styles = StyleSheet.create({});
+```
 
 ## Layout system
 
@@ -23,4 +33,6 @@
         -   layout multiple element with one common parent
 -   Position
     -   position single element in a parent element
+        -   override box object model and flex blox
+        -   similar to position absolute from web development
 
