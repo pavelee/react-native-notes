@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
     -   layout multiple element with one common parent
 -   options
     -   alignitems
+        -   ![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_alignitems.png)
         -   stretch (default)
             -   use maximum space to stretch child elements
             -   default behaviour for flex box parent
