@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
 ![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/layout_system.png)
 
 ### Box Object Model
--   ![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/box_object_model.png)
+-   ![box_object_model](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/box_object_model.png)
 -   box system familiar to web development
 -   padding, margin, border
     -   margin
@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     -   layout multiple element with one common parent
 -   options
     -   alignitems
-        -   ![layout_system](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_alignitems.png)
+        -   ![flex_box_flexdirection](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_alignitems.png)
         -   stretch (default)
             -   use maximum space to stretch child elements
             -   default behaviour for flex box parent
@@ -76,6 +76,14 @@ const styles = StyleSheet.create({
             -   put child elements on the center of parent element and use minimum space
         -   flex-end
             -   put child elements on the end of parent element and use minimum space
+    -   flexdirection
+        -   ![flex_box_flexdirection](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_flexdirection.png)
+        -   column (default)
+            -   child components are layout vertical
+        -   row
+            -   child components are layout horizontal
+        -   Attention! changing flexdirection affects alignitems behaviour
+            -   ![flex_box_flexdirection_axis](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_flexdirection_axis.png)
 ### Position
 -   position single element in a parent element
     -   override box object model and flex blox
