@@ -76,6 +76,16 @@ const styles = StyleSheet.create({
             -   put child elements on the center of parent element and use minimum space
         -   flex-end
             -   put child elements on the end of parent element and use minimum space
+        -   eg. to center all three elements
+        ```
+            <View style={{
+                alignItems: 'center'
+            }}>
+                <View><Text>Hello World!</Text></View>
+                <View><Text>Hello World!</Text></View>
+                <View><Text>Hello World!</Text></View>
+            </View>
+        ```
     -   flexdirection
         -   ![flex_box_flexdirection](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_flexdirection.png)
         -   column (default)
@@ -84,6 +94,16 @@ const styles = StyleSheet.create({
             -   child components are layout horizontal
         -   Attention! changing flexdirection affects alignitems behaviour
             -   ![flex_box_flexdirection_axis](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/flex_box_flexdirection_axis.png)
+    -   justify content
+        -   justify Content lays out children along the "primary axis". Primary axis is whatever "flexDirection" is set to.
+        -   Important! Justify Content works opposit axis to alignItems!
+        -   ![flex_box_flexdirection_axis](https://raw.githubusercontent.com/pavelee/react-native-notes/main/assets/justify_content.png)
+        -   options
+            -   flex-start (default)
+            -   center
+            -   flex-end
+            -   space-between
+            -   space-around
 ### Position
 -   position single element in a parent element
     -   override box object model and flex blox
